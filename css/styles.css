@@ -38,9 +38,12 @@ body {
 }
 
 .clock .title {
-    top: 5.2rem;
-    left: 13.6rem;
     position: absolute;
+    height: 42%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .clock .number {
@@ -65,6 +68,12 @@ body {
     --rotation: 90deg;
 }
 
+.clock .number3 span {
+    --rotation: 90deg;
+    transform: rotate(270deg);
+    position: absolute;
+}
+
 .clock .number4 {
     --rotation: 120deg;
 }
@@ -77,6 +86,12 @@ body {
     --rotation: 180deg;
 }
 
+.clock .number6 span {
+    --rotation: 90deg;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
 .clock .number7 {
     --rotation: 210deg;
 }
@@ -87,6 +102,12 @@ body {
 
 .clock .number9 {
     --rotation: 270deg;
+}
+
+.clock .number9 span {
+    --rotation: 90deg;
+    transform: rotate(90deg);
+    position: absolute;
 }
 
 .clock .number10 {
@@ -124,6 +145,6 @@ body {
 
 .clock .hand.hour {
     width: 10px;
-    height: 35%;
+    height: 30%;
     background-color: black;
 }
