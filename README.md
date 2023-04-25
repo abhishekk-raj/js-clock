@@ -4,4 +4,4 @@ show the local time of your browser.
 
 # App Demo
 #### You can see the live demo of app at -
-https://nervous-wilson-b83505.netlify.app 
+https://jsclock.techoutopia.com 
